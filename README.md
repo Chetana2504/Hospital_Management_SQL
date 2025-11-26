@@ -29,9 +29,8 @@ patient_ratings – Patient feedback and ratings
 
 🛠 Tools & Technologies
 
-MySQL / MariaDB
-
-SQL Workbench / DBeaver
+MySQL 
+SQL Workbench 
 
 SQL (DDL + DML)
 
@@ -87,26 +86,4 @@ FROM patient_master p
 JOIN visit_record v ON p.PatientID = v.PatientID
 JOIN hospital_master h ON v.HospitalID = h.HospitalID;
 
-🚀 How to Run This Project
 
-Create a new database:
-
-CREATE DATABASE Hospital_Project;
-
-
-Import the SQL file:
-
-Hospital_project.sql
-
-
-Run queries section-wise to see outputs and insights.
-
-📄 Project Deliverables
-
-Full SQL file with 50+ queries
-
-Window function based ranking
-
-Views
-
-Analytical query results
